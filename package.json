@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git://github.com/viandwi24/nuxt3-awesome-starter"
   },
-  "author": "viandwi24",
+  "author": "ludoo0d0a",
   "license": "MIT",
   "scripts": {
     "build": "nuxt build",
@@ -16,6 +16,7 @@
     "start": "node .output/server/index.mjs",
     "serve": "serve dist/",
     "postinstall": "husky install",
+    "pi": "pnpm install --shamefully-hoist",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "lintfix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "prepare": "husky install",
@@ -34,16 +35,17 @@
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/eslint-module": "3.1.0",
     "@pinia/nuxt": "^0.4.3",
+    "@types/express": "^4.17.14",
     "@vueuse/nuxt": "^9.5.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.2",
     "js-yaml": "^4.1.0",
     "lint-staged": "^13.0.3",
-    "nuxt": "npm:nuxt3@3.0.0-rc.13-27772354.a0a59e2",
-    "nuxt-windicss": "^2.5.1",
+    "nuxt": "^3.0.0",
+    "nuxt-windicss": "^2.5.5",
     "pinia": "^2.0.23",
     "postcss": "8.4.14",
     "postcss-loader": "^7.0.0",
@@ -58,7 +60,7 @@
     "unplugin-vue-components": "^0.22.9",
     "vite": ">=2.9.0 <3.0.0 || >=3.0.0-0 <3.0.0",
     "vitest": "^0.23.4",
-    "vue": "^3.2.41",
+    "vue": "^3.2.45",
     "vue-tsc": "^1.0.9",
     "webpack": ">=5.0.0 <6.0.0"
   },
@@ -66,5 +68,9 @@
     "**/*.{js,ts,vue,html}": [
       "pnpm lintfix"
     ]
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twitter-api-v2": "^1.12.9"
   }
 }

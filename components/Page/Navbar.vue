@@ -17,6 +17,7 @@ const menus = computed((): IMenuItem[] => [
   { type: 'link', text: t('pages.blank.nav'), route: { name: 'blank' } },
   { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
   { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
+  { type: 'link', text: t('pages.tweets.nav'), route: { name: 'tweets' } },
   { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
   {
     type: 'button',

@@ -85,7 +85,8 @@ const toggleOptions = (show?: boolean) => {
             >
               <span class="sr-only">home</span>
               <span class="flex items-center">
-                <IconSimpleIcons:nuxtdotjs
+                <!-- IconSimpleIcons:nuxtdotjs -->
+                <IconMingcute:train-2-fill
                   class="inline-block mr-2 text-lg text-primary-500"
                 />
                 {{ app.name }}

@@ -4,6 +4,7 @@
   "compilerOptions": {
     "strict": true,
     "skipLibCheck": true,
+    "noImplicitThis": false,
     "types": [
       "nuxt-windicss",
       "@vueuse/nuxt",

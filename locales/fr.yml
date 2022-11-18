@@ -1,13 +1,13 @@
 components:
   language_switcher:
-    change_language: change language
+    change_language: changer la langge
   theme_switcher:
     theme: theme
-    change_theme: change theme
+    change_theme: changer le theme
 pages:
   index:
-    title: Is your train[]really[]late ?
-    today: Today
+    title: Votre train[]est-il vraiment[]en retard ?
+    today: Aujourd'hui
   404:
     title: page not found
   blank:
@@ -19,10 +19,6 @@ pages:
     nav: post
     title: post
     description: this is a post page
-  tweets:
-    nav: tweets
-    title: tweets
-    description: Page about tweets
   test:
     nav: test
     title: testing

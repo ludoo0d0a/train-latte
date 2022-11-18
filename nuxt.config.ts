@@ -75,7 +75,7 @@ export default defineNuxtConfig({
     vueI18n: {
       locale: 'en',
       fallbackLocale: 'en',
-      availableLocales: ['en', 'id', 'ja', 'ko'],
+      availableLocales: ['en', 'fr'],
     },
   },
 
@@ -108,4 +108,7 @@ export default defineNuxtConfig({
       theme: 'github-dark',
     },
   },
+
+  // serverMiddleware
+  serverMiddleware: [{ path: '/rest', handler: '~/server-middleware/rest.ts' }],
 })
